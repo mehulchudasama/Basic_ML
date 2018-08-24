@@ -1,10 +1,11 @@
+# import files 
 import xlrd
 
 from sklearn.cluster import KMeans
 import numpy as np
 from sklearn import preprocessing
 import matplotlib.pyplot as plt
-
+#location of file
 file_location = "data1.xlsx"
 workbook = xlrd.open_workbook(file_location)
 sheet = workbook.sheet_by_name('B1')
